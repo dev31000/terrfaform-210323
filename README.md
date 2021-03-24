@@ -62,7 +62,7 @@ terraform destroy --auto-approve
 
 PS - If you want to just setup infrastructure without downloading keys from AWS, comment out `provisioner` and `connection` blocks in main.tf
 
-## Thing to improve
+## Things to improve
 The script has been put togather hastly and needs lot of refactoring and improvement.
 * Add modules for Security Groups, Instances to reuse code
 * Pass all the parameters via variables
